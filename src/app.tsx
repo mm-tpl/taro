@@ -1,7 +1,7 @@
-import React from 'react'
-import './app.scss'
+import React, { ComponentType } from 'react';
+import './app.scss';
 
-export default function App({ children }) {
+export default function App<T>({ children }: { children: ComponentType<T> }) {
 	return (
 		<>
 			{children}
