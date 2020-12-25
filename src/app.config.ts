@@ -1,3 +1,5 @@
+import { AppConfig } from '@tarojs/taro';
+
 export default {
 	pages: [
 		'pages/pg001/pg001'
@@ -8,4 +10,4 @@ export default {
 		navigationBarTitleText: 'Mmstudio',
 		navigationBarTextStyle: 'black'
 	}
-}
+} as AppConfig;
