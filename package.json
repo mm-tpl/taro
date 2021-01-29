@@ -25,7 +25,7 @@
 		"dev:alipay": "yarn build:alipay -- --watch",
 		"dev:tt": "yarn build:tt -- --watch",
 		"dev:h5": "yarn build:h5 -- --watch",
-		"dev:rn": "yarn build:rn -- --watch",
+		"dev:rn": "yarn build:rn -- --port 8081 --watch",
 		"dev:qq": "yarn build:qq -- --watch",
 		"dev:jd": "yarn build:jd -- --watch",
 		"dev:quickapp": "yarn build:quickapp -- --watch"
