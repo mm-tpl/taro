@@ -6,7 +6,7 @@
 	"templateInfo": {
 		"name": "taro-ui",
 		"typescript": true,
-		"css": "none"
+		"css": "sass"
 	},
 	"scripts": {
 		"dev": "yarn dev:h5",
