@@ -1,9 +1,10 @@
 import React from 'react'
 import { View, Text } from '@tarojs/components'
-import { } from 'taro-ui'
+import taro from '@tarojs/taro';
+import { } from 'react-native';
 
 // import "taro-ui/dist/style/components/button.scss" // 按需引入
-import './pg001.scss'
+import './pg001.css'
 
 export default function index() {
 	return (

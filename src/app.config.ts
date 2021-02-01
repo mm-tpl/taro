@@ -1,4 +1,5 @@
-import { AppConfig } from '@tarojs/taro';
+import taro from '@tarojs/taro';
+import './app.css';
 
 export default {
 	pages: [
@@ -10,4 +11,4 @@ export default {
 		navigationBarTitleText: 'Mmstudio',
 		navigationBarTextStyle: 'black'
 	}
-} as AppConfig;
+} as taro.AppConfig;
