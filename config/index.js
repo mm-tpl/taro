@@ -1,6 +1,8 @@
+// config/index.js
 const config = {
 	projectName: 'prjname',
 	date: 'createdate',
+	date: '2021-3-15',
 	designWidth: 750,
 	deviceRatio: {
 		640: 2.34 / 2,
@@ -44,7 +46,7 @@ const config = {
 	},
 	h5: {
 		publicPath: '/',
-		staticDirectory: 'static',
+		staticDirectory: 'public',
 		postcss: {
 			autoprefixer: {
 				enable: true,
