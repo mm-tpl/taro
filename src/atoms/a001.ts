@@ -1,3 +1,7 @@
+import a004 from './a004';
+
+const server = a004();
+
 export default function a001() {
-	return 'http://127.0.0.1:3000/api/wx'
+	return `${server}/api/wx`;
 }
