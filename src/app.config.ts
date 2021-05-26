@@ -1,5 +1,4 @@
 import taro from '@tarojs/taro';
-import './app.css';
 
 export default {
 	pages: [
@@ -9,6 +8,7 @@ export default {
 		backgroundTextStyle: 'light',
 		navigationBarBackgroundColor: '#fff',
 		navigationBarTitleText: 'Mmstudio',
-		navigationBarTextStyle: 'black'
+		navigationBarTextStyle: 'black',
+		backgroundColor: '#fff'
 	}
 } as taro.AppConfig;
