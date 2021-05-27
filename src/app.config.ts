@@ -11,4 +11,4 @@ export default {
 		navigationBarTextStyle: 'black',
 		backgroundColor: '#fff'
 	}
-} as taro.AppConfig;
+} as taro.Config;
