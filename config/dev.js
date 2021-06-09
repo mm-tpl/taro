@@ -1,11 +1,15 @@
 module.exports = {
-  env: {
-    NODE_ENV: '"development"'
-  },
-  defineConstants: {
-  },
-  mini: {},
-  h5: {
-    esnextModules: ['taro-ui']
-  }
+	env: {
+		NODE_ENV: '"development"'
+	},
+	defineConstants: {
+	},
+	mini: {},
+	h5: {
+		devServer: {
+			open: false,
+			port: 3000
+		},
+		esnextModules: ['taro-ui']
+	}
 }
