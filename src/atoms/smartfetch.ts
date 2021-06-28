@@ -1,10 +1,9 @@
-import a001 from './a001';
-
+import server from './server';
 import { getStorageSync, request, showToast } from '@tarojs/taro';
 
 const ish5 = process.env.TARO_ENV === 'h5';	// h5 or weapp
 
-const baseUrl = a001();
+const baseUrl = server();
 
 function gettoken() {
 	try {
@@ -14,7 +13,7 @@ function gettoken() {
 	}
 }
 
-export default function send_msg<T>(service: string, msg: unknown) {
+export default function smartfetch<T>(service: string, msg: unknown) {
 	const data = JSON.stringify(msg);
 	const url = `${baseUrl}/${service}`;
 	const cookie = ish5 ? {} : { cookie: ('token=' + gettoken()) };
