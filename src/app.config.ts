@@ -2,7 +2,7 @@ import taro from '@tarojs/taro';
 
 export default {
 	pages: [
-		'pages/pg001/pg001'
+		'pages/home/home'
 	],
 	window: {
 		backgroundTextStyle: 'light',

@@ -1,5 +1,5 @@
 import taro from '@tarojs/taro';
 
 export default {
-	navigationBarTitleText: '01factory'
+	navigationBarTitleText: 'mmstudio'
 } as taro.PageConfig;
