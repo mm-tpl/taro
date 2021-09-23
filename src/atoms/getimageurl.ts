@@ -1,10 +1,11 @@
-import a004 from './server';
+import server from './server';
+import api from './api';
 
-const server = a004();
+const host = server();
 
 /**
  * get image url
  */
 export default function getimageurl(id: string) {
-	return `${server}/api/getfile/${id}`;
+	return `${host}${api['/api/file/id']}/${id}`;
 }
