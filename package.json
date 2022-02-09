@@ -10,6 +10,7 @@
 	},
 	"scripts": {
 		"dev": "yarn dev:h5",
+		"clean": "rm -rf /tmp/metro-cache",
 		"build": "yarn build:rn",
 		"build:weapp": "taro build --type weapp",
 		"build:swan": "taro build --type swan",
