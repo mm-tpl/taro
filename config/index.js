@@ -1,8 +1,7 @@
 // config/index.js
 const config = {
-	projectName: 'prjname',
-	date: 'createdate',
-	date: '2021-3-15',
+	projectName: 'dfactory01',
+	date: '2022-3-15',
 	designWidth: 750,
 	deviceRatio: {
 		640: 2.34 / 2,
@@ -21,6 +20,21 @@ const config = {
 		}
 	},
 	framework: 'react',
+	rn: {
+		appName: 'taroDemo',
+		output: {
+			iosSourceMapUrl: '', // sourcemap 文件url
+			iosSourcemapOutput: './native-shell/ios/main.map', // sourcemap 文件输出路径
+			iosSourcemapSourcesRoot: '', // 将 sourcemap 资源路径转为相对路径时的根目录
+			androidSourceMapUrl: '',
+			androidSourcemapOutput: './native-shell/android/app/src/main/assets/index.android.map',
+			androidSourcemapSourcesRoot: '',
+			ios: './native-shell/ios/main.jsbundle',
+			iosAssetsDest: './native-shell/ios',
+			android: './native-shell/android/app/src/main/assets/index.android.bundle',
+			androidAssetsDest: './native-shell/android/app/src/main/res'
+		}
+	},
 	mini: {
 		postcss: {
 			pxtransform: {
