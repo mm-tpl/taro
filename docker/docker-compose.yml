@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  01factory-app:
+    image: dfactory01-docker.pkg.coding.net/match/scene/wxapp:dev
+    build:
+      context: ..
+      dockerfile: ./docker/app

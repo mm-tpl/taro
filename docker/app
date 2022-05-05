@@ -1,0 +1,6 @@
+# wxpp
+FROM dfactory01-docker.pkg.coding.net/01factory/core/web:latest
+# rnapp
+# FROM dfactory01-docker.pkg.coding.net/01factory/core/app:latest
+WORKDIR /root/01factory
+COPY . .
