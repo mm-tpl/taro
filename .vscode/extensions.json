@@ -3,6 +3,7 @@
 		"aaron-bond.better-comments",
 		"dbaeumer.vscode-eslint",
 		"eamodio.gitlens",
-		"mm.mmstudio"
+		"mm.mmstudio",
+		"cipchk.cssrem"
 	]
 }
