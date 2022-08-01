@@ -1,0 +1,33 @@
+.tabs{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+    padding: 0 0.8125rem;
+}
+.tab{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex-grow: 0;
+	height:3rem;
+margin-left: 0.4rem;
+ margin-right: 0.4rem;
+
+margin-top: -0.8rem;
+}
+.v,.n{
+font-size: 0.875rem ;
+text-align: center;
+}
+.v{
+    font-weight:700;
+	color: #000000;
+}
+.n{
+	color: #908A8A;
+}
+.panel{
+	height: 0;
+	flex-grow: 1;	
+}
