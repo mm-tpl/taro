@@ -25,9 +25,11 @@
 	"typescript.preferences.importModuleSpecifier": "relative",
 	"editor.renderWhitespace": "all",
 	"editor.linkedEditing": true,
-	"vetur.format.defaultFormatter.ts": "none",
 	"breadcrumbs.enabled": true,
 	"files.associations": {
 		"*.json": "jsonc"
-	}
+	},
+	"terminal.integrated.shellIntegration.enabled": true,
+	"json.format.keepLines": true,
+	"auto-rename-tag.activationOnLanguage": [ "html", "xml", "php", "typescriptreact" ]
 }

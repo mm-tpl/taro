@@ -4,6 +4,7 @@
 		"dbaeumer.vscode-eslint",
 		"eamodio.gitlens",
 		"mm.mmstudio",
-		"cipchk.cssrem"
+		"cipchk.cssrem",
+		"formulahendry.auto-rename-tag"
 	]
 }
